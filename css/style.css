@@ -17,6 +17,9 @@
   color: #ffffff;
   text-decoration: none;
 }
+.card-img-top .card-body {
+  width: auto;
+}
 
 .nav-container {
   max-width: 1000px;
