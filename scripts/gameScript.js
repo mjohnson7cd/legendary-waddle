@@ -48,12 +48,6 @@ const games = [
         title: "wowgame",
         link: "https://nashj99.github.io/echo/",
         author:"Justin Nash",
-        image: "   https://avatars.githubusercontent.com/u/89221371?v=4"
-      },
-      {
-        title: "wowgame",
-        link: "https://nashj99.github.io/echo/",
-        author:"Justin Nash",
         image: "https://avatars.githubusercontent.com/u/89221371?v=4"
       },
       {
