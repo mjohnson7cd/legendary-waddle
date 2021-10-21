@@ -6,51 +6,100 @@ const games = [
     title: "007",
     link: "James Bond", 
     author: "Games Bond",
-    image:"https://avatars.githubusercontent.com/u/22795694?v=4",
-    github: "https://github.com/barrycumbie"
+    image:"https://avatars.githubusercontent.com/u/22795694?v=4"
   },
   {
     title: "Name Game",
     link: "https://zanemoon13.github.io/lab-echo/index.html", 
     author: "Zane Mooney",
-    image:  "https://avatars.githubusercontent.com/u/89221221?v=4",
-    github: "https://github.com/zanemoon13"
+    image:  "https://avatars.githubusercontent.com/u/89221221?v=4"
   },
   {
     title: "Macey's Game",
     link: "https://maceyraejones.github.io/cautious-couscous/",
     author: "Macey Jones",
-    image: "https://avatars.githubusercontent.com/u/89227313?v=4",
-    github: "https://github.com/maceyraejones"
+    image: "https://avatars.githubusercontent.com/u/89227313?v=4"
+    },
+    {
+  title: "EchoGame",
+  link: "https://brandoncoplen.github.io/EchoLab1/",
+  author: "Brandon Coplen",
+  image: "https://avatars.githubusercontent.com/u/89221350?v=4"
   },
-  {
-    title: "EchoGame",
-    link: "https://brandoncoplen.github.io/EchoLab1/",
-    author: "Brandon Coplen",
-    image: "https://avatars.githubusercontent.com/u/89221350?v=4",
-    github: "https://github.com/brandoncoplen"
-  },
-  {
-    title: "NameGame",
-    link: "https://nkerstiens.github.io/Echo-Lab-376/",
-    author: "Noah Kerstiens",
-    image: "https://avatars.githubusercontent.com/u/44041365?v=4",
-    github: "https://github.com/nkerstiens"
+{
+  title: "NameGame",
+  link: "https://nkerstiens.github.io/Echo-Lab-376/",
+  author: "Noah Kerstiens",
+  image: "https://avatars.githubusercontent.com/u/44041365?v=4"
   },
   {
     title: "game4happiness",
     link: "https://vanpham2000.github.io/game4happiness/",
     author: "Van Pham",
-    image: "https://avatars.githubusercontent.com/u/86323153?v=4",
-    github: "https://github.com/vanpham2000"
-  },
-  {
-    title: "namePage",
-    link: "https://2fortdev.github.io/Echo-lab/",
-    author: "Sam Aaron",
-    image: "https://avatars.githubusercontent.com/u/89477693?v=4",
-    github: "https://github.com/2fortdev"
-  }
+    image: "https://avatars.githubusercontent.com/u/86323153?v=4"
+    },
+    {
+      title: "namePage",
+      link: "https://2fortdev.github.io/Echo-lab/",
+      author: "Sam Aaron",
+      image: "https://avatars.githubusercontent.com/u/89477693?v=4"
+      },
+      {
+        title: "wowgame",
+        link: "https://nashj99.github.io/echo/",
+        author:"Justin Nash",
+        image: "   https://avatars.githubusercontent.com/u/89221371?v=4"
+      },
+      {
+        title: "wowgame",
+        link: "https://nashj99.github.io/echo/",
+        author:"Justin Nash",
+        image: "https://avatars.githubusercontent.com/u/89221371?v=4"
+      },
+      {
+        title: "Name Fun",
+        link: "https://mjohnson7cd.github.io/labEcho/",
+        author: "Mark Johnson",
+        image: "https://avatars.githubusercontent.com/u/61306576?v=4"
+      },
+      {
+        title: "Name Game",
+        link: "https://cj89112.github.io/echo-376/",
+        author: "Courtney Pride",
+        image: "https://avatars.githubusercontent.com/u/66399339?v=4"
+      },
+      {
+        title: "Game of Names",
+        link: "https://jakemiles14.github.io/miles-lab-echo/",
+        author: "Jake Miles",
+        image: "https://avatars.githubusercontent.com/u/89221232?v=4"
+      },
+      {
+        title: "Game of Names",
+        link: "https://katrinayates.github.io/gameSwitcher/",
+        author: "Katrina Yates",
+        image: "https://avatars.githubusercontent.com/u/55498867?v=4"
+        },
+      {
+        title: "Crazy Name Game",
+        link: "https://kiikz.github.io/EchoGames/",
+        author: "Austin Reach",
+        image: "https://avatars.githubusercontent.com/u/89221359?v=4"
+      },
+      {
+        title: "namer gamer",
+        link: "https://nikkisteww.github.io/delta-half/",
+        author: "Nikki Stewart",
+        image:"https://avatars.githubusercontent.com/u/89221253?v=4"
+        },
+        {
+          title: "SUPER FUN GAMER GAMES",
+          link: "https://kanashiima.github.io/fluffy-waddle/",
+          author: "John Barnes",
+          image: "https://avatars.githubusercontent.com/u/89482908?v=4"
+
+        },
+
 ];
 // iterate over the JSON array
 $.each(games, function (index, item) {
@@ -60,7 +109,7 @@ $.each(games, function (index, item) {
 
   // create a brand new HTML element JUST with code
 
-   var el = `<div class=" mb-4" style="width: 25%;">
+   var el = `<div style="width: 25%;">
    <div class="card">
        <img class="card-img-top" src="${ item.image }" alt="github profile image">
        <div class="card-body text-center">
@@ -74,8 +123,7 @@ $.each(games, function (index, item) {
        </div>
    </div>
  </div>`
-
-// var el = `<div class='card text-center mx-auto bg-dark blue' style="width: 200px;"> \
+// var el = `<div class='card text-center mx-auto bg-dark blue' style="width: 200px"> \
 //   <button class='cardOpen2 btn btn-outline-info'> ${ item.title } </button> \
 //    <div class='cardHide'> \
 //        <br> \
