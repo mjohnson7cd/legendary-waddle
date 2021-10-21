@@ -50,7 +50,72 @@ $(function() {
         author: "Sam Aaron",
         image: "https://avatars.githubusercontent.com/u/89477693?v=4",
         github: "https://github.com/2fortdev"
-      }
+      },
+      {
+        title: "wowgame",
+        link: "https://nashj99.github.io/echo/",
+        author:"Justin Nash",
+        image: "https://avatars.githubusercontent.com/u/89221371?v=4",
+        github: "https://github.com/nashj99"
+        
+      },
+
+      {
+        title: "Name Fun",
+        link: "https://mjohnson7cd.github.io/labEcho/",
+        author: "Mark Johnson",
+        image: "https://avatars.githubusercontent.com/u/61306576?v=4",
+        github: "https://github.com/mjohnson7cd"
+      },
+
+      {
+        title: "Name Game",
+        link: "https://cj89112.github.io/echo-376/",
+        author: "Courtney Pride",
+        image: "https://avatars.githubusercontent.com/u/66399339?v=4",
+        github: "https://github.com/cj89112"
+      },
+
+      {
+        title: "Game of Names",
+        link: "https://jakemiles14.github.io/miles-lab-echo/",
+        author: "Jake Miles",
+        image: "https://avatars.githubusercontent.com/u/89221232?v=4",
+        github: "https://github.com/jakemiles14"
+      },
+
+      {
+        title: "Game of Names",
+        link: "https://katrinayates.github.io/gameSwitcher/",
+        author: "Katrina Yates",
+        image: "https://avatars.githubusercontent.com/u/55498867?v=4",
+        github: "https://github.com/katrinayates"
+        },
+
+      {
+        title: "Crazy Name Game",
+        link: "https://kiikz.github.io/EchoGames/",
+        author: "Austin Reach",
+        image: "https://avatars.githubusercontent.com/u/89221359?v=4",
+        github: "https://github.com/kiikz"
+      },
+
+      {
+        title: "namer gamer",
+        link: "https://nikkisteww.github.io/delta-half/",
+        author: "Nikki Stewart",
+        image:"https://avatars.githubusercontent.com/u/89221253?v=4",
+        github: "https://github.com/nikkisteww"
+        },
+
+        {
+          title: "SUPER FUN GAMER GAMES",
+          link: "https://kanashiima.github.io/fluffy-waddle/",
+          author: "John Barnes",
+          image: "https://avatars.githubusercontent.com/u/89482908?v=4",
+          github: "https://github.com/kanashiima"
+
+        },
     ];
     // iterate over the JSON array
     $.each(games, function (index, item) {
